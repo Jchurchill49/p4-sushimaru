@@ -43,3 +43,56 @@ text-align: center;
 .pricing-table{
  	border:none;
 }
+
+.title1{
+	background-color: rgb(255,190,29);
+}
+.title2{
+	background-color: rgb(15,170,239);
+}
+.title3{
+	background-color: rgb(255,15,0);
+}
+.title4{
+	background-color: rgb(125,63,103);
+}
+.title5{
+	background-color: rgb(10,47,101);
+}
+.title6{
+	background-color: rgb(54,199,70);
+}
+
+
+.title1,
+.title2,
+.title3,
+.title4,
+.title5,
+.title6{
+	padding:2%;
+	color:white;
+}
+
+.pricing-table .description {
+background-color:rgba(230,230,230, .25);
+padding: 0.9375rem;
+text-align: left;
+color: #777777;
+font-size: 0.75rem;
+font-weight: normal;
+line-height: 1.4;
+border-bottom: dotted 1px #dddddd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
