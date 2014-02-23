@@ -1,11 +1,45 @@
 /* Your Awesome Website */
+body{
+	background: url("../img/gray.png");
+}
 
+h1{
+	font-size: 3em;
+}
+h2{
+	font-size: 2em;
+}
+}
+.header+div+div{
+text-align: center;
+}
+.nav{
+	text-decoration: none;
+	list-style: none;
+	float:right;
+	margin:3%;
+	color:black;
+	font-size: 1.5em;
+}
 #gmap {
 	height: 300px;
 	width: 300px;
 }
 
 .orbit{
-	height: 300px;
+	height: 480px;
 	width: 970px;
+}
+
+.orbit-img{
+	height: 480px;
+	width: 970px;
+}
+
+.header{
+	margin:2%;
+}
+
+.pricing-table{
+ 	border:none;
 }
