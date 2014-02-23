@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation | Welcome</title>
+    <title>Sushi Maru</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -13,12 +13,12 @@
     
          <div class="row">
     <div class="large-3 columns">
-      <h1><img src="http://placehold.it/400x100&text=Logo" /></h1>
+      <h1 class="logo"><img src="img/logo.jpg" /></h1>
     </div>
     <div class="large-9 columns">
       <ul class="right button-group">
-      <li><a href="#" class="button">Link 1</a></li>
-      <li><a href="#" class="button">Link 2</a></li>
+      <li><a href="#" class="button">Menu</a></li>
+      <li><a href="#" class="button">Contact</a></li>
       <li><a href="#" class="button">Link 3</a></li>
       <li><a href="#" class="button">Link 4</a></li>
       </ul>
@@ -31,12 +31,38 @@
  
   <div class="row">
     <div class="large-12 columns">
-    <div id="slider">
-      <img src="http://placehold.it/1000x400&text=[ img 1 ]" />
+    <ul class="orbit" data-orbit>
+  <li>
+    <img src="img/chicken1.jpg" alt="slide 1" />
+    <div class="orbit-caption">
+      Caption One.
     </div>
+  </li>
+  <li>
+    <img src="img/sushi1.jpg" alt="slide 2" />
+    <div class="orbit-caption">
+      Caption Two.
+    </div>
+  </li>
+  <li>
+    <img src="img/sushi2.jpg" alt="slide 3" />
+    <div class="orbit-caption">
+      Caption Three.
+    </div>
+  </li>
+</ul>
     
     <hr />
     </div>
+  </div>
+
+
+ <!-- Explanation of menu --> 
+ <div class="row">
+    <div class="large-12 columns">
+      <h2>Menu</h2>
+      <p> With all the delicious choices it's easy to want to try every dish on the menu! To help you decide what to try, each item on our menu is color coded so that you know how much each plate costs.</p>
+  </div>
   </div>
   
 <!-- Three-up Content Blocks -->
@@ -44,20 +70,84 @@
   <div class="row">
     <div class="large-4 columns">
       <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      <h4>$1.50</h4>
+          <ul class="pricing-table">
+            <li class="title">Gyoza</li>
+            <li class="description">Fried dumplings stuffed with shredded pork</li>
+          </ul>
+          <ul class="pricing-table">
+            <li class="title">Edamame</li>
+            <li class="description">Whole soy bean pods steamed tossed with sea salt</li>
+          </ul>
     </div>
     
     <div class="large-4 columns">
       <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      <h4>$2.25</h4>
+        <ul class="pricing-table">
+            <li class="title">California Roll</li>
+            <li class="description">Crab meat with cucumber and avocado</li>
+          </ul>
+
+         <ul class="pricing-table">
+            <li class="title">Fried Rice</li>
+            <li class="description">White rice fried with soy sauce, egg, peas and carrots</li>
+        </ul>
     </div>
     
     <div class="large-4 columns">
       <img src="http://placehold.it/400x300&text=[img]" />
-      <h4>This is a content section.</h4>
-      <p>Bacon ipsum dolor sit amet nulla ham qui sint exercitation eiusmod commodo, chuck duis velit. Aute in reprehenderit, dolore aliqua non est magna in labore pig pork biltong. Eiusmod swine spare ribs reprehenderit culpa. Boudin aliqua adipisicing rump corned beef.</p>
+      <h4>$2.75</h4>
+             <ul class="pricing-table">
+                  <li class="title">Shrimp Roll</li>
+                  <li class="description">Shrimp Tempura with avocado and cucumber and imitation crab meat </li>
+              </ul>
+               <ul class="pricing-table">
+                  <li class="title">Spicy Tuna Roll</li>
+                  <li class="description">Ground spicy tuna with cucumber and Kaiware topped with Unagi Sauce and sesame seeds</li>
+              </ul>
+    </div>
+  
+    </div>
+
+      <div class="row">
+    <div class="large-4 columns">
+      <img src="http://placehold.it/400x300&text=[img]" />
+      <h4>$3.25</h4>
+              <ul class="pricing-table">
+                  <li class="title">Spicy Tuna Roll</li>
+                  <li class="description">Ground spicy tuna with cucumber and Kaiware topped with Unagi Sauce and sesame seeds</li>
+              </ul>
+              <ul class="pricing-table">
+                  <li class="title">Spicy Tuna Roll</li>
+                  <li class="description">Ground spicy tuna with cucumber and Kaiware topped with Unagi Sauce and sesame seeds</li>
+              </ul>
+    </div>
+    
+    <div class="large-4 columns">
+      <img src="http://placehold.it/400x300&text=[img]" />
+      <h4>$3.75</h4>
+             <ul class="pricing-table">
+                  <li class="title">Kanki By The Sea</li>
+                  <li class="description">Eel and avocado rolled in crab stick and tobiko, served on a bed of seaweed salad with a cream sauce</li>
+              </ul>
+              <ul class="pricing-table">
+                  <li class="title">Tuna Rio</li>
+                  <li class="description">Shrimp tempura, cream cheese, and spicy mayo in a reverse roll with tuna, baked and topped with hot sauce aand jalapenos</li>
+              </ul>
+    </div>
+    
+    <div class="large-4 columns">
+      <img src="http://placehold.it/400x300&text=[img]" />
+      <h4>$4.50</h4>
+              <ul class="pricing-table">
+                  <li class="title">Scallop Banzai Roll</li>
+                  <li class="description">Salmon, eel, scallops and avocado</li>
+              </ul>
+               <ul class="pricing-table">
+                  <li class="title">Spiral Ecstasy Roll</li>
+                  <li class="description">Shrimp, crab stick and avocado rolled with salmon, yellowtail and tuna</li>
+              </ul>
     </div>
   
     </div>
